@@ -8,7 +8,7 @@
     "dev": "gulp",
     "build": "gulp build --build"
   },
-  "author": "Garapov Ruslan",
+  "author": "Goncharov Sergey",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "2.23.6",
