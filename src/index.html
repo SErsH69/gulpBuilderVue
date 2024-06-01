@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <title>Главная</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
         @@include('blocks/modules/header/header.html', {})
-        <main>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, soluta.</span>
-            <button data-modal-id="1">Modal1 Opener</button>
-            <button data-modal-id="2">Modal2 Opener</button>
-            <img src="@img/icons/icons.svg#benefit_1" alt="benefit_1"/>
-            <img src="@img/download.png" width="100" alt="">
-            {{ isMounted }}
+        <main class="content">
+            Content
         </main>
         @@include('blocks/modules/footer/footer.html', {})
         @@include('blocks/modules/modals/main.modal.html', {})
