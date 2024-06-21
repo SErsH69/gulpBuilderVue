@@ -32,6 +32,7 @@ window.app = new Vue({
     beforeMount() {
         this.isMounted = true;
         this.header.init();
+        this.modals.init();
     },
     computed: {
         isMobile: function () {
